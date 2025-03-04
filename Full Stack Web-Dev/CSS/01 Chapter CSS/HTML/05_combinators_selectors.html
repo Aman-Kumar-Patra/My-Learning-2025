@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Combinators Selector</title>
+    <style>
+        /* div .code #d h1 {
+            background-color: red;
+        } */
+        div > h1 {
+            background-color: red;
+        }
+        h1 > span {
+            background-color: yellow;
+        }
+        p ~ h1 {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="code">
+                <div id="d">
+                    <h1>codewizardaman h1</h1>
+                </div>
+        </div>
+    </div>
+    <h1><span>hello</span> CodeWizardAman h1</h1>
+    <p>codewizardaman</p>
+    <h1>CodeWizardAman h1</h1>
+    <h1>CodeWizardAman h1</h1>
+    <h1>CodeWizardAman h1</h1>
+    <h2>codewizardaman h2</h2>
+    <h2>codewizardaman h2</h2>
+    <p>codewizardaman</p>
+    <!-- 
+        Descendant Selector
+        It find element inside another element child Selector
+        It apply style on child element 
+        adjacent sibling selector
+        select only adjecent element 
+        General sibiling selector
+        all the element after spcefic element
+    -->
+</body>
+</html>

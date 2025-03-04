@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Attribute Selectors</title>
+    <style>
+        h1[class *= "wizard"] {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="wizard aman">CodeWizardAman</h1>
+    <h1 class="wizardaman">CodeWizardAman</h1>
+    <h1 class="wizard-aman">CodeWizardAman</h1>
+    <h1 class="codewizardaman">CodeWizardAman</h1>
+    <h1 class="wizard">CodeWizardAman</h1>
+    <h1>CodeWizardAman</h1>
+    <h1 class="amanwizard">CodeWizardAman</h1>
+
+    <!-- 
+    [attribute]
+    finde specific att
+    [attribute="value"]
+    find specific att with specific balue 
+    [attribute-="value"]
+    find xpace separated value
+    [attribute|="value"]
+    value should be at strting point, alone or with hyphen
+    [attribute^="value"]
+    with caret symbol value should be at starting point and did not need to be separated.
+    [attributes$="value"] 
+    with dollor symbol value should be at ending poing and did not need to be separated.
+    [attribute="value"] with astrisk symbol value should may at any point and did not need to be separted.
+    -->
+    
+     
+</body>
+</html>
